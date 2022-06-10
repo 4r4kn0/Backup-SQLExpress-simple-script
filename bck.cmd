@@ -5,11 +5,11 @@ echo.
 echo Start database backup %date% %time%
 echo.
 echo ***************************************************
-"C:\Program Files\Microsoft SQL Server\150\Tools\Binn\osql.exe" -S .\SqlExpress -U sa -P [password for sa] -i "C:\Program Files (x86)\Solari di Udine\TWServer\bck_script\DBSolariBIZ.sql"
-"C:\Program Files\Microsoft SQL Server\150\Tools\Binn\osql.exe" -S .\SqlExpress -U sa -P [password for sa] -i "C:\Program Files (x86)\Solari di Udine\TWServer\bck_script\DBSolariPRV.sql"
+"C:\Program Files\Microsoft SQL Server\150\Tools\Binn\osql.exe" -S .\SqlExpress -U sa -P [password for sa] -i "C:\[your path selected in DB1.sql]\DB1.bak"
+"C:\Program Files\Microsoft SQL Server\150\Tools\Binn\osql.exe" -S .\SqlExpress -U sa -P [password for sa] -i "C:\[your path selected in DB2.sql]\DB2.bak"
 echo.
 echo ***************************************************
 echo.
-echo Avvio Fase 2 database Solari %date% %time%
+echo Start phase 2 database %date% %time%
 echo.
 echo ***************************************************
